@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Augmented.reality.demo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="main_augmented_reality">Realidad aumentada</string>
+    <string name="main_virtual_tour">Recorrido virtual</string>
+    <string name="main_360_view">Vista 360º</string>
+    <string name="main_undefined">Sin definir</string>
+    <string name="main_projects">Proyectos</string>
+    <string name="main_facebook">Facebook</string>
+    <string name="main_twitter">Twitter</string>
+    <string name="main_webpage">Página web</string>
+    <string name="main_contact">Contacto</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_augmented_reality">MainAugmentedReality</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

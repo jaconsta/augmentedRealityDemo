@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.itxd.augmentedrealitydemo.MainActivity">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/main_virtual_tour"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/main_virtual_tour"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:onClick="onClick_main_virtual_tour" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/main_augmented_reality"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/main_augmented_reality"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:onClick="onClick_main_augmented_reality" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/main_360_view"
+        android:layout_below="@+id/main_virtual_tour"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/main_360_view"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:onClick="onClick_main_360_view" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/main_undefined"
+        android:layout_below="@+id/main_360_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/main_undefined"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:onClick="onClick_main_undefined" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/main_projects"
+        android:layout_below="@+id/main_undefined"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/main_projects"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:onClick="onClick_main_projects" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clickedText"
+        android:layout_below="@+id/main_projects"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
